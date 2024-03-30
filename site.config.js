@@ -4,11 +4,11 @@ const CONFIG = {
     name: "leokim1178",
     image: "/notion-avatar-leo.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
-    bio: "I develop everything using node.",
+    bio: "dev & climb",
     email: "leo950906@gmail.com",
-    linkedin: "https://www.linkedin.com/in/%ED%83%9C%EC%98%81-%EA%B9%80-798b47246/",
-    github: "https://github.com/leokim1178",
-    instagram: "https://www.instagram.com/t0_0climb/",
+    linkedin: "%ED%83%9C%EC%98%81-%EA%B9%80-798b47246",
+    github: "leokim1178",
+    instagram: "t0_0climb",
   },
   projects: [
     {
@@ -23,10 +23,13 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://leo-1178-blog.vercel.app",
+  since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  seo:{
+    keywords: ["Blog","Website","Notion"]
+  },
 
   // notion configuration (required)
   notionConfig: {
