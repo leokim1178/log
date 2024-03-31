@@ -56,7 +56,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false, // after deploy, change true
+    enable: true, // after deploy, change true
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
