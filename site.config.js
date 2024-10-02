@@ -12,9 +12,9 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `leo-blog`,
-      href: "https://github.com/leokim1178/log",
-    },
+      name: `Resume`,
+      href: "https://leo-1178-blog.vercel.app/resume",
+    }
   ],
   // blog setting (required)
   blog: {
